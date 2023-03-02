@@ -1,0 +1,90 @@
+body {
+    background-color: #c5c6c5;
+    font-family: 'Segoe UI';
+}
+
+nav{
+    background-color: rgb(138, 135, 131);
+}
+
+nav a{
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+nav a:hover {
+    color: #215080;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herotxt {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 500px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.card{
+    color: black;
+    background-color: rgb(138, 135, 131);
+    text-align: center;
+    min-height: 320px;
+    max-height: 400px;
+    min-width: 320px;
+    max-width: 500px;
+    border-radius: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    margin: 40px;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 0%;
+}
+
+.card h4{
+    color: #215080;
+}
+
+th {
+    color : #FFFFFF; 
+    background-color: #336699; 
+    border-width: 1px ;
+    border-style: solid; 
+    border-color: blue; 
+    font-size: 20pt;
+    padding: 10px;
+}
+
+td {
+    background-color: #E6E6FA; 
+    border-width: 1px;
+    border-style: solid; 
+    border-color: blue; 
+    font-size: 18pt;
+}
